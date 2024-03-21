@@ -1,0 +1,25 @@
+.tittle{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 6rem;
+    background-color: blue;
+    padding: 8px 0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto 30%;
+    grid-column-gap: 15%;
+    margin-top: 40px;
+    margin: 40px 20px;
+    justify-content: center;
+    align-items: center;
+}
+.gridImg{
+    border:1px solid white
+}
+.gridText{
+    width: 450px;
+    font-size: 1.2rem;
+}
